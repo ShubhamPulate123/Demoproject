@@ -26,6 +26,7 @@ public class Demo2 {
 	@BeforeSuite
 	public void openBrowsewr()
 	{
+		Systeam.out.println("Demo")
 		System.out.println("open browser");
 		System.out.println("Before suite");
 		 System.setProperty("webdriver.chrome.driver","C:\\Users\\Haha CORPORATION\\Desktop\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
@@ -96,6 +97,6 @@ public class Demo2 {
 				  {
 			         new Object[] {"shubham123","shubham@123","shubhamp123","123456s"}
 				  };
-		  System.out.println("Demo2");
+		 
 	  }
 }
